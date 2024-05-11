@@ -1,6 +1,44 @@
+:root {
+    --darkviolet: #220034;
+    --violet: #7138AA;
+    --lavand: #A88AD8;
+    --vwhite: #E1D4FB;
+    --white: #FFFFFF;
+    --paleyellow: #FFFB82;
+    --yellow: #FAE820;
+}
+
+.container {
+    padding: 0 10px;
+    margin: 0 auto;
+    max-width: 320px;
+    width: 100%;
+    outline: solid red;
+  }
+
 /* ІНШЕ */
 .oter-soon {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: var(--darkviolet);
 }
+
+header {
+    background-color: var(--vwhite);
+}
+
+.header-item .header-link {
+    color: var(--violet);
+    font-size: 20px;
+    position: relative;
+    transition-property: font-weight, color;
+    transition-duration: 200ms;
+    transition-delay: 0.3s;
+}
+
+.header-link:hover {
+    color: var(--paleyellow);
+}
+
+.header-list
