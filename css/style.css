@@ -41,4 +41,9 @@ header {
     color: var(--paleyellow);
 }
 
-.header-list
+/*.header-list */
+
+.header-logo {
+ height: 200px;
+ width: 200px;
+}
